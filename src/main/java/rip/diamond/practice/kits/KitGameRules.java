@@ -51,6 +51,7 @@ public class KitGameRules implements Cloneable {
 	@Getter private int newRoundTime = 5;
 	@Getter private int clearBlockTime = 10;
 	@Getter private String knockbackName = "default";
+	@Getter private String blocksToBreak = "";
 
 	public boolean isPoint(Match match) {
 		switch (match.getMatchType()) {
